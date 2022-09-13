@@ -1,0 +1,25 @@
+{
+  "name": "artigo-backend",
+  "version": "1.0.0",
+  "description": "Projeto de Cadastro de Artigos com Node.js, Rest API, Express, Sequelize e MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "José Dagmar FSS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.6"
+  }
+}
