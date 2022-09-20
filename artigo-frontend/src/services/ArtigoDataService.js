@@ -25,7 +25,7 @@ class ArtigoDataService {
     return http.delete(`/artigos`);
   }
 
-  findByTitle(titulo) {
+  findByTitulo(titulo) {
     return http.get(`/artigos?titulo=${titulo}`);
   }
 }
