@@ -126,6 +126,6 @@ export default {
 </script>
 <style>
 .list {
-  max-width: 750px;
+  max-width: 1000px;
 }
 </style>

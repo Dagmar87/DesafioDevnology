@@ -19,7 +19,7 @@
         ></v-text-field>
       </v-form>
 
-      <v-btn color="primary" class="mt-3" @click="saveTutorial">Enviar</v-btn>
+      <v-btn color="primary" class="mt-3" @click="saveArtigo">Enviar</v-btn>
     </div>
 
     <div v-else>
@@ -31,7 +31,7 @@
         </v-card-subtitle>
 
         <v-card-actions>
-          <v-btn color="success" @click="newTutorial">Adicionar</v-btn>
+          <v-btn color="success" @click="newArtigo">Adicionar</v-btn>
         </v-card-actions>
       </v-card>
     </div>
@@ -53,7 +53,7 @@ export default {
     };
   },
   methods: {
-    saveTutorial() {
+    saveArtigo() {
       var data = {
         titulo: this.artigo.titulo,
         url: this.artigo.url,
